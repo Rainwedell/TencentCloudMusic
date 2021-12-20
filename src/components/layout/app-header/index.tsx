@@ -1,10 +1,11 @@
+import './style.less';
+
+import { SearchOutlined } from '@ant-design/icons';
+import { Button, Input } from 'antd';
 import React, { memo } from 'react';
 import { NavLink } from 'react-router-dom';
-import { Input, Button } from 'antd';
-import { SearchOutlined } from '@ant-design/icons';
 
 import { headerLinks } from '../../../common/local-data';
-import './style.less';
 
 export default memo(function RWAppHeader() {
   const showSelectItem = (item: any, index: number) => {
