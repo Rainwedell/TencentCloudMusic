@@ -5,7 +5,19 @@ module.exports = {
   printWidth: 90,
   tabWidth: 2,
   jsxBracketSameLine: true,
+  trailingComma: 'all',
+  arrowParens: 'always',
+  bracketSpacing: true,
+  htmlWhitespaceSensitivity: 'css',
+  embeddedLanguageFormatting: 'auto',
   endOfLine: 'auto',
+  rangeStart: 0,
+  rangeEnd: Infinity,
+  requirePragma: false,
+  // 不需要自动在文件开头插入 @prettier
+  insertPragma: false,
+  // 使用默认的折行标准
+  proseWrap: 'preserve',
 };
 
 // {
